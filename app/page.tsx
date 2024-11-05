@@ -50,7 +50,12 @@ export default function HackShackLanding() {
           <Button
             size="lg"
             className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6 mt-8 text-white"
-            onClick={() => window.open("", "_blank")}
+            onClick={() =>
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLScRvn4qZ-r2pnoBHy8XqfHLNL7QsG6t0Ka0zpXN2cm6a9nKaw/viewform?usp=sf_link",
+                "_blank"
+              )
+            }
           >
             Apply by Dec 15
           </Button>
@@ -160,7 +165,12 @@ export default function HackShackLanding() {
           <Button
             size="lg"
             className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6 text-white"
-            onClick={() => window.open("", "_blank")}
+            onClick={() =>
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLScRvn4qZ-r2pnoBHy8XqfHLNL7QsG6t0Ka0zpXN2cm6a9nKaw/viewform?usp=sf_link",
+                "_blank"
+              )
+            }
           >
             Apply by Dec 15
           </Button>
